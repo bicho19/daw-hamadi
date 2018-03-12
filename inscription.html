@@ -1,0 +1,106 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+</head>
+<body style="background-color: #90EE90">
+
+    <h2 style="align-items: center; display: flex; justify-content: center; color: white;">Formulaire d'inscription en formation license informatique</h2>
+
+    <form>
+    <table width="80%" border="1" style="background-color: #F3F781; text-align: left" >
+        <tr>
+            <th width="30%">Nom et Prénom</th>
+            <th>
+                <input type="text" name="userFullName" style="width: 300px;">
+            </th>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <th>
+                <input type="number" name="userAge" style="width: 300px;">Ans
+            </th>
+        </tr>
+        <tr>
+            <th>Sex</th>
+            <th>
+                <input type="radio" name="userSex" value="homme"> Homme<br>
+                <input type="radio" name="userSex" value="femme"> Femme
+
+            </th>
+        </tr>
+        <tr>
+            <th>Wilaya</th>
+            <th>
+                <select name="wilaya">
+                    <option value="Sétif">Sétif</option>
+                    <option value="Batna">Batna</option>
+                    <option value="Mila">Mila</option>
+                    <option value="Msila">Msila</option>
+                    <option value="Bordj Bouariridj">Bordj Bouariridj</option>
+                    <option value="Autre">Autre</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>Adresse</th>
+            <th>
+                <textarea name="userAddress" rows="5" cols="40" placeholder="Tapez ici votre adresse"></textarea>
+            </th>
+        </tr>
+        <tr>
+            <th>Activité Sportives</th>
+            <th>
+                <input type="checkbox">Footbal<br>
+                <input type="checkbox">Handball<br>
+                <input type="checkbox">Basketball<br>
+                <input type="checkbox">Aucun<br>
+                <input type="checkbox">Autre
+            </th>
+        </tr>
+        <tr>
+            <th>Photo</th>
+            <th>
+                <input type="file" name="photo" accept="image/*">
+            </th>
+        </tr>
+        <tr>
+            <th>Anné d'etude</th>
+            <th>
+                <input type="radio" name="userYear" value="2eme"> 2eme annee<br>
+                <input type="radio" name="userYear" value="3eme"> 3eme annee
+            </th>
+        </tr>
+        <tr>
+            <th>Mot de passe</th>
+            <th>
+                <input type="password" name="userPass" style="width: 300px;">
+            </th>
+        </tr>
+        <tr>
+            <th>Confirmer le mot de passe</th>
+            <th>
+                <input type="password" name="userPassConf" style="width: 300px;">
+            </th>
+        </tr>
+        <tr>
+            <th>Effacer les informations</th>
+            <th>
+                <input type="reset" name="userClear" value="Annler">
+            </th>
+        </tr>
+        <tr>
+            <th>Envoyer les information</th>
+            <th>
+                <input type="submit" name="userSend" value="Valider">
+            </th>
+        </tr>
+
+
+    </table>
+    </form>
+
+
+
+</body>
+</html>
